@@ -123,7 +123,7 @@ class VibrationsWithMotionTestGenerator:
                        'motion_period': self.motion_period})
         return params
     def get_max_freq(self):
-        return self.freq_end
+        return self.vibration_generator.freq_end
 
 class ResonanceTestExecutor:
     def __init__(self, config):
